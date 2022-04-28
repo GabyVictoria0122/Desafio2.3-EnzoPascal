@@ -7,6 +7,9 @@ body {
   font-size: 22px;
   font-weight: 400;
   color: #293651;
+}
+
+.container {
   padding: 23px 300px 90px 150px;
 }
 
@@ -30,16 +33,19 @@ body {
   font-size: 19.9px;
 }
 
-img {
+.img-enzo {
   /* text-align: center; */
   margin-top: 5px;
   margin-left: 330px;
-  height: 500px;
 }
 
-button:hover {
-  background-color: black;
+.medir-habilidade {
+  display: block;
+  width: 100%;
+  height: 20 px;
+  background-color: grey;
 }
+
 .botao {
   width: 250px;
   height: 49px;
@@ -52,4 +58,27 @@ button:hover {
   font-size: 16px;
   text-align: center;
   border-radius: 10px;
+}
+
+.icon {
+  text-align: center;
+  padding: 45px 0px 0px;
+}
+
+.texto-footger {
+  letter-spacing: 5px;
+}
+
+.texto-freelancer {
+  font-family: open sans, sans-serif;
+  margin: 0px;
+}
+
+footer {
+  position: absolute;
+  bottom: auto;
+  background-color: #f8f8f8;
+  width: 100%;
+  text-align: center;
+  padding: 115px 0px 120px;
 }
