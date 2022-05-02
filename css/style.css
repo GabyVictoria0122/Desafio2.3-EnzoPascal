@@ -9,7 +9,7 @@ body {
   color: #293651;
 }
 
-.container {
+.container1 {
   padding: 23px 300px 90px 150px;
 }
 
@@ -32,15 +32,6 @@ body {
   color: #a1a6a9;
   font-size: 19.9px;
 }
-
-.img-enzo1 {
-  text-align: center;
-}
-
-.medir-habilidade {
-  width: 100%;
-}
-
 .botao {
   width: 250px;
   height: 49px;
@@ -55,9 +46,18 @@ body {
   border-radius: 10px;
 }
 
+.img-enzo1 {
+  text-align: center;
+}
+
+.container2 {
+  padding: 23px 300px 90px 150px;
+}
 .imagem-sobre-enzo {
   display: inline-block;
   width: 49%;
+}
+.img-enzo2 {
   height: 703px;
 }
 
@@ -65,50 +65,43 @@ body {
   display: inline-block;
   width: 49%;
 }
-
-.img-enzo2 {
-  float: left;
-  background-size: 50% auto;
-  background-color: purple;
+.medir-habilidade {
+  width: 100%;
 }
 
-.linha-projetos {
-  background-color: pink;
-  height: 900px;
+.container3 {
+  background-color: #f9f9f9;
+  height: 870px;
 }
 
 .coluna1 {
-  background-color: aqua;
   display: inline-block;
-  width: 33%;
-  height: 900px;
+  width: 30%;
+  height: 400px;
+  background-color: #ffff;
+  box-shadow: 10px 10px 5px #00a78e;
 }
 
 .coluna2 {
-  background-color: rgb(255, 21, 0);
   display: inline-block;
-  width: 33%;
-  height: 900px;
+  width: 30%;
+  height: 400px;
+  background-color: #ffff;
+  margin: 66px;
+  box-shadow: 10px 10px 5px #00a78e;
 }
 .coluna3 {
-  background-color: rgb(72, 0, 255);
   display: inline-block;
-  width: 33%;
-  height: 900px;
+  width: 30%;
+  height: 400px;
+  background-color: #ffff;
+  box-shadow: 10px 10px 5px #00a78e;
 }
 
-.icon {
-  text-align: center;
-  padding: 45px 0px 0px;
-}
-
-.texto-footger {
-  letter-spacing: 5px;
-}
-
-.texto-freelancer {
-  font-family: open sans, sans-serif;
-  margin: 0px;
+.icon-projetos {
+  height: 90px;
+  background-color: #00a78e;
+  border-radius: 20px 20px 0px 20px;
 }
 
 footer {
@@ -118,4 +111,13 @@ footer {
   width: 100%;
   text-align: center;
   padding: 115px 0px 120px;
+}
+
+.texto-footger {
+  letter-spacing: 5px;
+}
+
+.texto-freelancer {
+  font-family: open sans, sans-serif;
+  margin: 0px;
 }
