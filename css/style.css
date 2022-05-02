@@ -10,7 +10,7 @@ body {
 }
 
 .container1 {
-  padding: 23px 300px 90px 150px;
+  padding: 23px 150px 90px 150px;
 }
 
 .text2 {
@@ -51,8 +51,9 @@ body {
 }
 
 .container2 {
-  padding: 23px 300px 90px 150px;
+  padding: 23px 150px 90px 150px;
 }
+
 .imagem-sobre-enzo {
   display: inline-block;
   width: 49%;
@@ -65,8 +66,32 @@ body {
   display: inline-block;
   width: 49%;
 }
+
 .medir-habilidade {
   width: 100%;
+}
+.p2 {
+  display: inline-block;
+}
+
+.p-porcentagem {
+  float: right;
+}
+
+progress {
+  border: 0;
+  width: 500px;
+  height: 15px;
+}
+
+progress::-webkit-progress-value {
+  background: #00a78e;
+  border-radius: 10px;
+}
+
+progress::webkit-progress-bar {
+  background: #a1a6a9;
+  border-radius: 10px;
 }
 
 .container3 {
@@ -74,10 +99,14 @@ body {
   height: 870px;
 }
 
+.linha-projetos {
+  padding: 23px 150px 90px 150px;
+}
+
 .coluna1 {
   display: inline-block;
   width: 30%;
-  height: 400px;
+  height: 450px;
   background-color: #ffff;
   box-shadow: 10px 10px 5px #00a78e;
 }
@@ -85,7 +114,7 @@ body {
 .coluna2 {
   display: inline-block;
   width: 30%;
-  height: 400px;
+  height: 450px;
   background-color: #ffff;
   margin: 66px;
   box-shadow: 10px 10px 5px #00a78e;
@@ -93,15 +122,18 @@ body {
 .coluna3 {
   display: inline-block;
   width: 30%;
-  height: 400px;
+  height: 450px;
   background-color: #ffff;
   box-shadow: 10px 10px 5px #00a78e;
 }
 
 .icon-projetos {
   height: 90px;
-  background-color: #00a78e;
-  border-radius: 20px 20px 0px 20px;
+  margin: 30px;
+}
+
+.margin-projetos {
+  margin: 30px;
 }
 
 footer {
@@ -119,5 +151,5 @@ footer {
 
 .texto-freelancer {
   font-family: open sans, sans-serif;
-  margin: 0px;
+  margin-bottom: 60px;
 }
