@@ -11,16 +11,17 @@ body {
 
 .container1 {
   padding: 23px 150px 90px 150px;
+  text-align: center;
 }
 
 .text2 {
-  font-size: 26px;
+  font-size: 56px;
   font-weight: 200;
   color: #00a78e;
 }
 
 .text1 {
-  font-size: 35px;
+  font-size: 50px;
 }
 
 .text3 {
@@ -30,41 +31,53 @@ body {
 
 .p1 {
   color: #a1a6a9;
-  font-size: 19.9px;
+  font-size: 32px;
+  text-align: left;
 }
 .botao {
-  width: 250px;
-  height: 49px;
+  width: 320px;
+  height: 80px;
   padding: 0px;
-  margin-top: 3px;
+  margin-bottom: 80px;
   border: none;
   background-color: #00a78e;
   color: aliceblue;
   font-family: "Montserrat", sans-serif;
-  font-size: 16px;
+  font-size: 32px;
   text-align: center;
   border-radius: 10px;
 }
 
 .img-enzo1 {
   text-align: center;
+  height: 725px;
 }
-
 .container2 {
   padding: 23px 150px 90px 150px;
+
+}
+.text-sobre{
+  font-size: 56px;
+  font-weight: 200;
+  color: #00a78e;
+
+}
+.text-who{
+  font-size: 40px;
+  margin-bottom: 28px;
 }
 
 .imagem-sobre-enzo {
   display: inline-block;
   width: 49%;
 }
+.texto-sobre-enzo {
+  text-align: justify;
+  font-size: 30px;
+}
 .img-enzo2 {
   height: 703px;
-}
-
-.texto-sobre-enzo {
-  display: inline-block;
-  width: 49%;
+  49%
 }
 
 .medir-habilidade {
